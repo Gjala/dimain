@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-  <router-link to="/">Events</router-link> |
+  <router-link :to="{ name: 'EventDetails' }">Events</router-link> |
   <router-link to="/About">About</router-link>
   </div>
   <router-view />
